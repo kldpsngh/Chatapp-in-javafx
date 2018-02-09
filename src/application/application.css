@@ -1,0 +1,199 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+#anchorpane
+{
+	/*-fx-background-color: black;*/
+}
+#send_button
+{
+	-fx-background-color: purple ;
+	-fx-text-fill:white;
+}
+#smiley_button
+{
+	-fx-background-color: purple ;
+	-fx-text-fill:white;
+}
+#attach_button
+{
+	-fx-background-color: purple;
+	-fx-text-fill: white;
+}
+#download_button
+{
+	-fx-background-color: purple;
+	-fx-text-fill: white;
+}
+#conversation_area
+{
+	-fx-border-style: solid;
+	-fx-border-width: 2px;
+	-fx-border-color:red;
+	-fx-background-color: white;
+}
+#display_online_name
+{
+	
+	-fx-border-style: solid;
+	-fx-border-width: 2px;
+	-fx-border-color:blue;
+	-fx-background-color: white;
+}
+#file_sent_anchorpane
+{
+	
+}
+#file_sent_ok_button
+{
+	-fx-text-fill: white;
+	-fx-border-color: purple;
+	-fx-background-color: purple;
+}
+#file_sent_message
+{
+	-fx-font-family:monospace;
+	-fx-font-weight: bold;
+}
+#text_field
+{
+	-fx-background-color: hsba(180,100%,50%,0.1); 
+}
+#conversation_label
+{
+	-fx-text-alignment: center;
+	-fx-border-color:green;
+	-fx-border-width:2px;
+	-fx-border-style:solid;
+}
+#currently_online_label
+{
+	-fx-text-alignment: center;
+	-fx-border-color:green;
+	-fx-border-width:2px;
+	-fx-border-style:solid;
+}
+#photo
+{
+	-fx-border-color:green;
+	-fx-border-width:2px;
+	-fx-border-style:solid;
+	
+}
+#user_name
+{
+	-fx-border-color:red;
+	-fx-border-width:2px;
+	-fx-border-style:solid;
+	
+	
+}
+#leave_chat
+{
+	-fx-background-color:purple;
+	-fx-text-fill: white;
+}
+#help
+{
+	-fx-background-color:purple;
+	-fx-text-fill: white;
+}
+#about
+{
+	-fx-background-color:purple;
+	-fx-text-fill: white;
+}
+#browse_field
+{
+	-fx-border-color: red;
+}
+#image_send
+{
+	-fx-background-color:purple;
+	-fx-text-fill: white;
+}
+#pdf_send
+{
+	-fx-background-color:purple;
+	-fx-text-fill: white;
+}
+#docs_send
+{
+	-fx-background-color:purple;
+	-fx-text-fill: white;
+}
+#mp3_send
+{
+	-fx-background-color:purple;
+	-fx-text-fill: white;
+}
+#video_send
+{
+	-fx-background-color:purple;
+	-fx-text-fill: white;
+}
+#send_media
+{
+	-fx-background-color:purple;
+	-fx-text-fill: white;
+}
+#logo
+{
+	-fx-background-color: red;
+}
+#connect_button
+{
+	-fx-background-color:purple;
+	-fx-text-fill: white;
+}
+#dp_button
+{
+	-fx-background-color:purple;
+	-fx-text-fill: white;
+}
+#dp_path
+{
+	-fx-background-color: hsba(0,0%,75%,0.7);
+}
+#logo
+{
+	-fx-background-image: url("260113.png");
+	-fx-background-repeat: no-repeat ;
+	-fx-background-position: center ; 
+}
+#ok_button
+{
+   -fx-background-color: purple;
+   -fx-text-fill:white;
+}
+#server_too_busy_label
+{
+	-fx-font-weight:bold;
+	-fx-background-color: white;
+}
+#anchor_server
+{
+	-fx-border-style: solid;
+	-fx-border-width: 5px;
+	-fx-background-color: white;
+	-fx-border-color:  #dc143c;
+}
+#convo_area
+{
+	-fx-font-family: monospace;
+	-fx-font-style:oblique ;
+	-fx-font-weight:bold;
+}
+#disconnect_window_anchor
+{
+	-fx-background-color: white;
+}
+#disconnect_label
+{
+	-fx-background-color: black;
+	-fx-text-fill: white;
+	-fx-font-family:monospace;
+}
+#ok_button_2
+{
+	-fx-text-fill: white;
+	-fx-background-color: purple;
+}

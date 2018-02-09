@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="disconnect_window_anchor" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="120.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.disconnect_window_controller">
+   <children>
+      <Label fx:id="disconnect_label" alignment="CENTER" layoutX="46.0" layoutY="14.0" prefHeight="48.0" prefWidth="495.0" text="You Are Disconnected" textFill="#171717" />
+      <Button fx:id="ok_button_2" layoutX="255.0" layoutY="70.0" mnemonicParsing="false" onAction="#ok_button_2_action" prefHeight="36.0" prefWidth="62.0" text="OK" />
+   </children>
+</AnchorPane>

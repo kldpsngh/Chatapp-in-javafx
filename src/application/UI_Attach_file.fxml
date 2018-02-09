@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.UI_Attach_popup_controller">
+   <children>
+      <Button fx:id="image_send" layoutX="33.0" layoutY="38.0" mnemonicParsing="false" onAction="#open_Image_dialog" prefHeight="76.0" prefWidth="71.0" text="IMAGE" />
+      <Button fx:id="pdf_send" layoutX="165.0" layoutY="140.0" mnemonicParsing="false" onAction="#open_PDF_dialog" prefHeight="76.0" prefWidth="71.0" text="PDF" />
+      <Button fx:id="docs_send" layoutX="297.0" layoutY="38.0" mnemonicParsing="false" onAction="#open_Docs_dialog" prefHeight="76.0" prefWidth="71.0" text="DOCS" />
+      <Button fx:id="mp3_send" layoutX="33.0" layoutY="248.0" mnemonicParsing="false" onAction="#open_MP3_dialog" prefHeight="76.0" prefWidth="71.0" text="MP3" />
+      <Button fx:id="video_send" layoutX="297.0" layoutY="248.0" mnemonicParsing="false" onAction="#open_Video_dialog" prefHeight="76.0" prefWidth="71.0" text="VIDEO" />
+      <Label fx:id="browse_field" layoutX="6.0" layoutY="355.0" prefHeight="33.0" prefWidth="305.0" />
+      <Button fx:id="send_media" layoutX="315.0" layoutY="355.0" mnemonicParsing="false" onAction="#send_file_action" prefHeight="33.0" prefWidth="71.0" text="SEND" />
+   </children>
+</AnchorPane>

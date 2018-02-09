@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="file_sent_anchorpane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="83.0" prefWidth="380.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.files_sent_popup_controller">
+   <children>
+      <Label fx:id="file_sent_message" alignment="CENTER" layoutX="19.0" layoutY="14.0" prefHeight="26.0" prefWidth="335.0" text="Files have been sent" textFill="#141313" />
+      <Button fx:id="file_sent_ok_button" layoutX="170.0" layoutY="44.0" mnemonicParsing="false" onAction="#file_sent_ok_button_action" text="OK" />
+   </children>
+</AnchorPane>

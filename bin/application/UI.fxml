@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="anchorpane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.UI_controller">
+   <children>
+      <TextField fx:id="text_field" layoutX="51.0" layoutY="446.0" onKeyPressed="#keyListener" prefHeight="40.0" prefWidth="506.0" />
+      <Button fx:id="smiley_button" layoutX="8.0" layoutY="453.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="35.0" />
+      <Button fx:id="send_button" layoutX="565.0" layoutY="450.0" mnemonicParsing="false" onAction="#send_message" prefHeight="33.0" prefWidth="73.0" stylesheets="@application.css" text="SEND" />
+      <Button fx:id="attach_button" layoutX="645.0" layoutY="450.0" mnemonicParsing="false" onAction="#Attach_action" prefHeight="33.0" prefWidth="41.0" text="Button" />
+      <Label fx:id="conversation_label" alignment="CENTER" contentDisplay="CENTER" layoutX="16.0" layoutY="156.0" prefHeight="24.0" prefWidth="538.0" text="WELCOME TO CHAT" />
+      <Label fx:id="currently_online_label" alignment="CENTER" contentDisplay="CENTER" layoutX="571.0" layoutY="156.0" prefHeight="24.0" prefWidth="121.0" text="ONLINE" />
+      <Label fx:id="user_name" alignment="CENTER" contentDisplay="CENTER" layoutX="571.0" layoutY="120.0" prefHeight="24.0" prefWidth="121.0" />
+      <Button fx:id="leave_chat" alignment="CENTER" layoutX="407.0" layoutY="21.0" mnemonicParsing="false" onAction="#Disconnect_client" prefHeight="47.0" prefWidth="147.0" text="LEAVE CHAT" />
+      <Button fx:id="help" layoutX="212.0" layoutY="89.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="147.0" text="HELP" />
+      <Button fx:id="about" graphicTextGap="0.0" layoutX="407.0" layoutY="89.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="147.0" text="ABOUT" />
+      <ListView fx:id="display_online_name" layoutX="573.0" layoutY="193.0" prefHeight="241.0" prefWidth="108.0" />
+      <Button fx:id="download_button" layoutX="16.0" layoutY="89.0" mnemonicParsing="false" onAction="#Download_Action" prefHeight="47.0" prefWidth="147.0" text="DOWNLOAD" />
+      <TextArea fx:id="convo_area" layoutX="16.0" layoutY="193.0" prefHeight="241.0" prefWidth="538.0" />
+      <ImageView fitHeight="95.0" fitWidth="108.0" layoutX="573.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>
